@@ -69,11 +69,13 @@ console.log(estudante2022);
 console.log(estudante2023)
 */
 
+/*
+Exercício 4 (Incompleto)
 const pessoa = {
     nome: "Rodolfo",
     idade: 23,
     generoMusical: "Rock"
-}
+};
 
 const alterarPessoa = (obj) => {
 const novaPessoa = {
@@ -82,10 +84,16 @@ const novaPessoa = {
     melhorAmigo: {
         nome: "Fulano",
         idade: 32
-    }
-}
-}
+    };
+ };
 
-const frase = `O nome da pessoa é ${novaPessoa.nome} e suas comidas preferidas são ${novaPessoa.comidasPreferidas[0]}, ${novaPessoa.comidasPreferidas[1]} e ${novaPessoa.comidasPreferidas[2]}. Seu melhor amigo se chama ${novaPessoa.melhorAmigo.nome} e tem ${novaPessoa.melhorAmigo.idade} anos.
+
+ const frase = `O nome da pessoa é ${novaPessoa.nome} e suas comidas preferidas 
+ são ${novaPessoa.comidasPreferidas[0]}, ${novaPessoa.comidasPreferidas[1]} e 
+ ${novaPessoa.comidasPreferidas[2]}. Seu melhor amigo se chama ${novaPessoa.melhorAmigo.nome} e 
+ tem ${novaPessoa.melhorAmigo.idade} anos.`;
+ console.log(frase);
+};
 
 alterarPessoa(pessoa);
+*/
