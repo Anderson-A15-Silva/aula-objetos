@@ -70,7 +70,8 @@ console.log(estudante2023)
 */
 
 /*
-Exercício 4 (Incompleto)
+Exercício 4
+
 const pessoa = {
     nome: "Rodolfo",
     idade: 23,
@@ -84,7 +85,7 @@ const novaPessoa = {
     melhorAmigo: {
         nome: "Fulano",
         idade: 32
-    };
+    }
  };
 
 
@@ -96,4 +97,121 @@ const novaPessoa = {
 };
 
 alterarPessoa(pessoa);
+*/
+
+
+
+// Exercícios de Interpretação
+
+/*
+Exercício 1
+Resposta A:
+
+Matheus Nachtergaele
+Virgínia Cavendish
+canal: "Globo" horario: "14h"
+*/
+
+/*
+Exercício 2
+Resposta A:
+
+nome: "Juca", 	
+idade: 3, 	
+raca: "SRD"
+
+nome: "Juba", 	
+idade: 3, 	
+raca: "SRD"
+
+nome: "Jubo", 	
+idade: 3, 	
+raca: "SRD"
+
+Resposta B:
+Copia o objeto e seus propriedades, possibilitando alterações.
+*/
+
+/*
+Exercício 3
+Resposta A:
+false
+undefined
+
+Resposta B:
+'false' foi imprimido no console por ser declarado assim na propriedade do objeto (backender) e 'undefined' foi imprimido porque faltou esta chave dentro do objeto.
+*/
+
+/*
+const exercicioPessoaApelido = {
+            nome: "Guilherme",
+            apelidos: ["Gui", "Guga", "Guilhe"]
+}
+
+const funcaoExercicioPA = (objeto) => {
+            const exercicioResposta = objeto
+            console.log(exercicioResposta)
+}
+
+funcaoExercicioPA(exercicioPessoaApelido.apelidos)
+
+
+Resposta B:
+const pessoa = {
+    nome: "Guilherme",
+    apelidos:["Gui", "Guga", "Guilhe"]
+}
+
+function mensagem (x){
+    console.log(`Sou o ${x.nome}, mas pode me chamar de: ${x.apelidos[0]}, ${x.apelidos[1]} ou ${x.apelidos[2]}.`)
+}
+mensagem(pessoa)
+
+const pessoa2 = {...pessoa, apelidos:["Gege", "Guil", "Lime"]}
+mensagem(pessoa2)
+*/
+
+/*
+const alterarFuncaoExercicioPA = (mensagem) => {
+    const novaFuncaoExercicioPA = {
+        ...exercicioPessoaApelido
+        nome: "Jonas",
+        apelidos: ["Jojo", "Jo", "JJ"]
+    }
+}
+*/
+
+/*
+Exercício 2 (Incompleto)
+Resposta A:
+
+const primeiraPessoa = {
+    nome: "Robson",
+    idade: 28,
+    profissao: "Médico"
+}
+const segundaPessoa = {
+    nomeDois: "Claiton",
+    idadeDois: 42,
+    profissaoDois: "Policial"
+}
+
+let tamanhoNomePrimeiraPessoa = console.log(primeiraPessoa.nome.length)
+let tamanhoProfissaoPrimeiraPessoa = console.log(primeiraPessoa.profissao.length)
+let tamanhoSegundaPessoa = console.log(segundaPessoa.nomeDois.length)
+let tamanhoProfissaoSegundaPessoa = console.log(segundaPessoa.profissaoDois.length)
+
+const funcaoPessoa = (x) => {
+    const resultado = [primeiraPessoa.nome, x.tamanhoNomePrimeiraPessoa, primeiraPessoa.idade, primeiraPessoa.profissao, x.tamanhoProfissaoPrimeiraPessoa]
+    return resultado
+}
+
+const funcaoPessoaDois = (x) => {
+    const resultado = [segundaPessoa.nome, x.tamanhoNomeSegundaPessoa, segundaPessoa.idade, segundaPessoa.profissao, x.tamanhoProfissaoSegundaPessoa]
+    return resultado
+}
+
+
+console.log(funcaoPessoa(primeiraPessoa))
+console.log(funcaoPessoa(segundaPessoa))
 */
