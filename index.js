@@ -182,7 +182,7 @@ const alterarFuncaoExercicioPA = (mensagem) => {
 */
 
 /*
-Exercício 2 (Incompleto)
+Exercício 2
 Resposta A:
 
 const primeiraPessoa = {
@@ -191,23 +191,14 @@ const primeiraPessoa = {
     profissao: "Médico"
 }
 const segundaPessoa = {
-    nomeDois: "Claiton",
-    idadeDois: 42,
-    profissaoDois: "Policial"
+    nome: "Claiton",
+    idade: 42,
+    profissao: "Policial"
 }
 
-let tamanhoNomePrimeiraPessoa = console.log(primeiraPessoa.nome.length)
-let tamanhoProfissaoPrimeiraPessoa = console.log(primeiraPessoa.profissao.length)
-let tamanhoSegundaPessoa = console.log(segundaPessoa.nomeDois.length)
-let tamanhoProfissaoSegundaPessoa = console.log(segundaPessoa.profissaoDois.length)
-
+Resposta B:
 const funcaoPessoa = (x) => {
-    const resultado = [primeiraPessoa.nome, x.tamanhoNomePrimeiraPessoa, primeiraPessoa.idade, primeiraPessoa.profissao, x.tamanhoProfissaoPrimeiraPessoa]
-    return resultado
-}
-
-const funcaoPessoaDois = (x) => {
-    const resultado = [segundaPessoa.nome, x.tamanhoNomeSegundaPessoa, segundaPessoa.idade, segundaPessoa.profissao, x.tamanhoProfissaoSegundaPessoa]
+    const resultado = [x.nome, x.nome.length, x.idade, x.profissao, x.profissao.length]
     return resultado
 }
 
