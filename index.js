@@ -185,6 +185,7 @@ const alterarFuncaoExercicioPA = (mensagem) => {
 Exercício 2
 Resposta A:
 
+
 const primeiraPessoa = {
     nome: "Robson",
     idade: 28,
@@ -195,8 +196,10 @@ const segundaPessoa = {
     idade: 42,
     profissao: "Policial"
 }
+*/
 
-Resposta B:
+// Resposta B:
+/*
 const funcaoPessoa = (x) => {
     const resultado = [x.nome, x.nome.length, x.idade, x.profissao, x.profissao.length]
     return resultado
@@ -205,4 +208,70 @@ const funcaoPessoa = (x) => {
 
 console.log(funcaoPessoa(primeiraPessoa))
 console.log(funcaoPessoa(segundaPessoa))
+*/
+
+
+/*
+Resposta C:
+
+let carrinhoExercicio = [];
+
+const primeiraFruta = {
+    nome: "Bergamota",
+    disponibilidade: true,
+};
+
+const segundaFruta = {
+    nome: "Tomate",
+    disponibilidade: true,
+};
+
+const terceiraFruta = {
+    nome: "Kiwi",
+    disponibilidade: true,
+};
+
+const comprasExercicio = (x) => {
+    carrinhoExercicio.push(x)
+};
+*/
+
+/*
+Resposta D:
+comprasExercicio(primeiraFruta);
+comprasExercicio(segundaFruta);
+comprasExercicio(terceiraFruta);
+
+console.log(carrinhoExercicio);
+*/
+
+/*
+Resultado Final:
+
+let carrinhoExercicio = [];
+
+const primeiraFruta = {
+    nome: "Bergamota",
+    disponibilidade: true,
+};
+
+const segundaFruta = {
+    nome: "Tomate",
+    disponibilidade: true,
+};
+
+const terceiraFruta = {
+    nome: "Kiwi",
+    disponibilidade: true,
+};
+
+const comprasExercicio = (x) => {
+    carrinhoExercicio.push(x)
+};
+
+comprasExercicio(primeiraFruta);
+comprasExercicio(segundaFruta);
+comprasExercicio(terceiraFruta);
+
+console.log(carrinhoExercicio);
 */
